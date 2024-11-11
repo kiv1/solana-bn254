@@ -1,0 +1,20 @@
+[package]
+name = "solana-bn254"
+description = "A standalone Solana BN254"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-bn254 = "0.4.0"
+ark-ec = "0.4.0"
+ark-ff = "0.4.0"
+ark-serialize = "0.4.0"
+bytemuck = "1.14.0"
+thiserror = "1.0.56"
+solana-program="1.17"
+
+[dev-dependencies]
+array-bytes = "=1.4.1"
+serde = "1.0.195"
+serde_derive = "1.0.103"
+serde_json = "1.0.111"
